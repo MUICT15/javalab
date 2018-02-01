@@ -8,6 +8,7 @@ public class EggStop {
         pentagonStop();
         line();
     }
+    
 
     public static void space() {
         System.out.println("\n\n\n");
