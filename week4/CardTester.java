@@ -26,11 +26,12 @@ class CardTester{
         while (stop == false){
             String input = scan.nextLine();
             System.out.println(input);
-            if(input != "q"){
+            if(input.equals("q")){
+                stop = true;
+            }else {
                 Card card = new Card(input);
                 System.out.println(card.getDescription());
-            }else {
-                stop = true;
+
             }
             return;
         }
